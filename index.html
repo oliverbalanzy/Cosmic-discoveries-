@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Discoveries | Astronomy Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <div class="container header-container">
+            <a href="#Home" class="logo">
+                Cosmic Discoveries
+            </a>
+            <button class="mobile">
+                <i class="fas fa-outdent"></i>
+            </button>
+            <div class="nav-container">
+                <div class="dropdown">
+                    <button class="dropbtn">Discover <i class="fas fa-chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#categories"><i class="fas fa-atom"></i> Categories</a>
+                        <a href="#planets"><i class="fas fa-globe-americas"></i> Planets</a>
+                        <a href="#constellations"><i class="fas fa-star"></i> Constellations</a>
+                        <a href="#comets"><i class="fas fa-meteor"></i> Comets</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Resources <i class="fas fa-chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#news"><i class="fas fa-newspaper"></i> Latest News</a>
+                        <a href="#observatories"><i class="fas fa-satellite"></i> Observatories</a>
+                        <a href="#videos"><i class="fas fa-video"></i> Videos</a>
+                        <a href="#books"><i class="fas fa-book"></i> Books</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About <i class="fas fa-chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="#Contact"><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+                <div class="visitor-counter">
+                    <i class="fas fa-users"></i>
+                    <span id="visitorCount">1024</span> Visitors
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-carousel" id="Home">
+
+        <div class="slide active"
+            style="background-image: url('Images/nasa-hubble-space-telescope-EZ8Y4L8LumE-unsplash.jpg');">
+            <div class="slide-content">
+                <h1>EARLY DISCOVERIES <br>ABOUT THE PLANETS</h1>
+                <p>Explore the wonders of our universe and discover the mysteries of distant galaxies, planets, and
+                    celestial phenomena. Experience the beauty and science of astronomy like never before.</p>
+                <a href="#planets"><button class="Home-btn">Explore Planets</button></a>
+            </div>
+        </div>
+
+
+        <div class="slide" style="background-image: url('Images/simon-lee-ozVwowRmSwM-unsplash.jpg');">
+            <div class="slide-content">
+                <h1>FIRST LOOK AT <br>NEPTUNE</h1>
+                <p>Neptune is the eighth and farthest planet from the Sun in our solar system. It's a large, blue gas
+                    giant, also known as an "ice giant" due to its composition. Neptune is characterized by its dark,
+                    cold, and windy atmosphere, and it has a rocky core surrounded by a slushy fluid mix of water,
+                    ammonia, and methane ice. </p>
+                <a href="#planets"><button class="Home-btn">Learn More <i class="fas fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url('Images/simon-lee-XnGxTBij48Q-unsplash.jpg');">
+            <div class="slide-content">
+                <h1>FIRST LOOK AT <br>VENUS</h1>
+                <p>Venus is the second planet from the Sun and Earth's closest planetary neighbor. It's often called
+                    Earth's "sister planet" due to similarities in size and mass. However, Venus has a thick, dense
+                    atmosphere and is extremely hot, unlike Earth. It is also the brightest natural object in Earth's
+                    night sky after the Moon.</p>
+                <a href="#planets"><button class="Home-btn">Learn More <i class="fas fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+
+
+        <div class="slide" style="background-image: url('Images/boliviainteligente-wrMbee9-KSM-unsplash.jpg');">
+            <div class="slide-content">
+                <h1>SATURN</h1>
+                <p>While Earth is unique in its ability to sustain life as we know it, Saturn is often considered the
+                    most special planet in our solar system besides Earth, due to its stunning ring system. These rings,
+                    composed of icy particles, are a defining feature and make it a breathtaking sight. </p>
+                <a href="#planets"><button class="Home-btn">Learn More <i class="fas fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="categories">
+        <div class="container">
+            <h2>Astronomy Categories</h2>
+            <p class="Sec-description">Dive into the fascinating world of astronomy through our curated categories
+                covering the origins and evolution of the cosmos.</p>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="bigbang">Big Bang Theory</button>
+                <button class="tab-btn" data-tab="evolution">Evolution of Earth</button>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="bigbang">
+                    <h3>The Origin of Our Universe</h3>
+                    <p>The Big Bang theory is the prevailing cosmological model explaining the existence of the
+                        observable universe from the earliest known periods through its subsequent large-scale
+                        evolution. The model describes how the universe expanded from an initial state of high density
+                        and temperature, and offers a comprehensive explanation for a broad range of observed phenomena.
+                    </p>
+                    <p>According to the Big Bang theory, approximately 13.8 billion years ago, the entire universe was
+                        compressed into an infinitely small point known as a singularity. This singularity began to
+                        expand, and the universe has been growing larger and cooler ever since.</p>
+                    <div class="info-grid"
+                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+                        <div>
+                            <h4><i class="fas fa-certificate"></i> Key Evidence</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Cosmic Microwave Background Radiation</li>
+                                <li><i class="fas fa-check"></i> Abundance of Light Elements</li>
+                                <li><i class="fas fa-check"></i> Hubble's Law & Redshift Observations</li>
+                                <li><i class="fas fa-check"></i> Large Scale Structure of the Universe</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4><i class="fas fa-flask"></i> Major Stages</h4>
+                            <ul>
+                                <li><i class="fas fa-atom"></i> Planck Epoch (0 to 10⁻⁴³ seconds)</li>
+                                <li><i class="fas fa-atom"></i> Grand Unification Epoch</li>
+                                <li><i class="fas fa-atom"></i> Inflationary Epoch</li>
+                                <li><i class="fas fa-atom"></i> Nucleosynthesis (3-20 minutes)</li>
+                                <li><i class="fas fa-atom"></i> Recombination (380,000 years)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="evolution">
+                    <h3>Earth's Formation and Development</h3>
+                    <p>Earth, our home planet, formed approximately 4.54 billion years ago through accretion from the
+                        solar nebula. Volcanic outgassing likely created the primordial atmosphere, but it contained
+                        almost no oxygen and would have been toxic to most modern life.</p>
+                    <p>Over billions of years, Earth developed from a molten ball of rock to the life-supporting planet
+                        we know today through complex geological and biological processes.</p>
+
+                    <div
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px;">
+                        <div>
+                            <h4><i class="fas fa-layer-group"></i> Geological Timeline</h4>
+                            <ul>
+                                <li><i class="fas fa-circle"></i> Hadean Eon (4.6-4.0 bya): Formation and cooling</li>
+                                <li><i class="fas fa-circle"></i> Archean Eon (4.0-2.5 bya): First life forms</li>
+                                <li><i class="fas fa-circle"></i> Proterozoic Eon (2.5-0.54 bya): Oxygenation event</li>
+                                <li><i class="fas fa-circle"></i> Phanerozoic Eon (540 mya-present): Complex life</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4><i class="fas fa-leaf"></i> Key Developments</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Formation of the Moon (4.5 bya)</li>
+                                <li><i class="fas fa-check-circle"></i> Oceans form (4.4 bya)</li>
+                                <li><i class="fas fa-check-circle"></i> First life (3.7-4.1 bya)</li>
+                                <li><i class="fas fa-check-circle"></i> Great Oxygenation (2.4 bya)</li>
+                                <li><i class="fas fa-check-circle"></i> Cambrian explosion (541 mya)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planets">
+        <div class="container">
+            <h2>Solar System Planets</h2>
+            <p class="Sec-description">Explore the diverse worlds that orbit our Sun, from rocky inner planets to gas
+                giants and icy dwarfs.</p>
+
+            <div class="planets-grid">
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/Mecury.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>MECURY</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Known since antiquity <br>
+                                <strong>Size:</strong> 4,879 km diameter <br>
+                                <strong>Atmosphere:</strong> Minimal atmosphere <br>
+                                <strong>Orbit Distance:</strong> 57.9 million km from Sun <br>
+                                <strong>More-details:</strong> Smallest planet, closest to Sun, rocky surface, extreme
+                                temperature shifts.
+                            </p>
+                            <p>PLANET - #01</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/simon-lee-XnGxTBij48Q-unsplash.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>VENUS</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Known since antiquity <br>
+                                <strong>Size:</strong> 12,104 km diameter <br>
+                                <strong>Atmosphere:</strong> CO₂ atmosphere (92 bar) <br>
+                                <strong>Orbit Distance:</strong> 108.2 million km from Sun <br>
+                                <strong>More-details:</strong> Similar to Earth, thick atmosphere, hottest planet,
+                                volcanic surface active.
+                            </p>
+                            <p>PLANET - #02</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/Earth.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>EARTH</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Our home planet <br>
+                                <strong>Size:</strong> 12,742 km diameter <br>
+                                <strong>Atmosphere:</strong> Nitrogen-oxygen atmosphere <br>
+                                <strong>Orbit Distance:</strong> 149.6 million km from Sun <br>
+                                <strong>More-details:</strong> Only known life-supporting planet, water-rich, diverse
+                                ecosystems, dynamic climate.
+                            </p>
+                            <p>PLANET - #03</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/Mars.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>MARS</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Known since antiquity <br>
+                                <strong>Size:</strong> 6,779 km diameter <br>
+                                <strong>Atmosphere:</strong> Thin CO₂ atmosphere <br>
+                                <strong>Orbit Distance:</strong> 227.9 million km from Sun <br>
+                                <strong>More-details:</strong> Red planet, dusty surface, thin atmosphere, potential for
+                                life.
+                            </p>
+                            <p>PLANET - #04</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/Jupiter.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>JUPITER</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Known since antiquity <br>
+                                <strong>Size:</strong> 139,820 km diameter <br>
+                                <strong>Atmosphere:</strong> Hydrogen-helium atmosphere <br>
+                                <strong>Orbit Distance:</strong> 778.5 million km from Sun <br>
+                                <strong>More-details:</strong> Largest planet, gas giant, Great Red Spot, many massive
+                                moons.
+                            </p>
+                            <p>PLANET - #05</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/boliviainteligente-wrMbee9-KSM-unsplash.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>SATURN</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Known since antiquity <br>
+                                <strong>Size:</strong> 116,460 km diameter <br>
+                                <strong>Atmosphere:</strong> Hydrogen-helium atmosphere <br>
+                                <strong>Orbit Distance:</strong> 1.43 billion km from Sun <br>
+                                <strong>More-details:</strong> Gas giant, iconic rings, low density, many moons, strong
+                                winds.
+                            </p>
+                            <p>PLANET - #06</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/Uranus.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>URANUS</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Discovered 1781 <br>
+                                <strong>Size:</strong> 50,724 km diameter <br>
+                                <strong>Atmosphere:</strong> Hydrogen-helium-methane <br>
+                                <strong>Orbit Distance:</strong> 2.87 billion km from Sun <br>
+                                <strong>More-details:</strong> Ice giant, pale blue color, tilted axis, faint ring
+                                system.
+                            </p>
+                            <p>PLANET - #07</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-gallery">
+                    <div class="planet-card">
+                        <img src="Images/simon-lee-ozVwowRmSwM-unsplash.jpg" alt="Venus" class="planet-img" />
+                        <div class="planet-info">
+                            <h2>NEPTUNE</h2>
+                            <p>
+                                <strong>Discovery date:</strong> Discovered 1846 <br>
+                                <strong>Size:</strong> 49,244 km diameter <br>
+                                <strong>Atmosphere:</strong> Hydrogen-helium-methane <br>
+                                <strong>Orbit Distance:</strong> 4.5 billion km from Sun <br>
+                                <strong>More-details:</strong> Farthest planet, deep blue, strong winds, storms, icy
+                                atmosphere.
+                            </p>
+                            <p>PLANET - #08</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="constellations" style="background-color: rgba(20, 20, 50, 0.5);">
+        <div class="container">
+            <h2>Stellar Constellations</h2>
+            <p class="Sec-description">Discover the patterns in the night sky that have guided humanity for millennia.
+            </p>
+
+            <div class="tab-content" style="margin-top: 30px;">
+                <h3>What Are Constellations?</h3>
+                <p>Constellations are groupings of stars that form recognizable patterns in the night sky. Historically,
+                    they were used for navigation, agricultural timing, and storytelling. Today, astronomers use 88
+                    officially recognized constellations to map the entire celestial sphere.</p>
+
+                <div style="margin-top: 30px;">
+                    <div>
+                        <h4><i class="fas fa-star"></i> Notable Constellations</h4>
+                        <ul>
+                            <li><strong>Orion:</strong> The Hunter - Features Betelgeuse and Rigel</li>
+                            <li><strong>Ursa Major:</strong> The Great Bear - Contains the Big Dipper</li>
+                            <li><strong>Cassiopeia:</strong> The Queen - Distinctive W shape</li>
+                            <li><strong>Scorpius:</strong> The Scorpion - Bright red star Antares</li>
+                            <li><strong>Cygnus:</strong> The Swan - Also known as the Northern Cross</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4><i class="fas fa-history"></i> Historical Significance</h4>
+                        <p>Ancient civilizations like the Babylonians, Greeks, and Egyptians developed their own
+                            constellation systems. Many constellations we use today originated from Claudius
+                            Ptolemy's
+                            48 constellations listed in the 2nd century Almagest.</p>
+                        <p>Modern constellations were standardized by the International Astronomical Union in 1922,
+                            filling gaps in the southern sky and creating a uniform system for astronomers
+                            worldwide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comets">
+        <div class="container">
+            <h2>Cosmic Comets</h2>
+            <p class="Sec-description">Icy visitors from the outer solar system that light up our skies.</p>
+
+            <div class="tab-content" style="margin-top: 30px;">
+                <div>
+                    <h3>What Are Comets?</h3>
+                    <p>Comets are cosmic snowballs of frozen gases, rock, and dust that orbit the Sun. When a
+                        comet's orbit brings it close to the Sun, it heats up and spews dust and gases into a giant
+                        glowing head larger than most planets. The dust and gases form a tail that stretches away
+                        from the Sun for millions of miles.</p>
+                    <h4 style="margin-top: 20px;">Composition</h4>
+                    <p>Comets consist of:</p>
+                    <ul>
+                        <li>Nucleus: Solid core of ice and rock (1-50 km diameter)</li>
+                        <li>Coma: Cloud of gas and dust around nucleus</li>
+                        <li>Hydrogen envelope: Invisible layer surrounding coma</li>
+                        <li>Dust tail: Curved tail of dust particles</li>
+                        <li>Ion tail: Straight tail of ionized gases</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Famous Comets</h3>
+                    <div>
+                        <h4>Halley's Comet</h4>
+                        <p><i class="fas fa-history"></i> Period: 75-76 years</p>
+                        <p><i class="fas fa-eye"></i> Last seen: 1986, Next appearance: 2061</p>
+                        <p>One of the most famous comets, recorded since at least 240 BC. It's the only known
+                            short-period comet that is regularly visible to the naked eye from Earth.</p>
+                    </div>
+                    <div>
+                        <h4>Comet Hale-Bopp</h4>
+                        <p><i class="fas fa-history"></i> Period: ~2,533 years</p>
+                        <p><i class="fas fa-eye"></i> Last seen: 1997, Next appearance: ~4380</p>
+                        <p>One of the most widely observed comets of the 20th century and one of the brightest seen
+                            for many decades. It was visible to the naked eye for a record 18 months.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="news" class="N-design">
+        <div class="container">
+            <h2>Latest Astronomical Discoveries</h2>
+            <p class="Sec-description">Stay updated with the most recent breakthroughs in space exploration and
+                astronomy.</p>
+
+            <div class="two-column">
+                <div class="card">
+                    <h3><i class="fas fa-satellite"></i> James Webb Telescope Discoveries</h3>
+                    <p>The James Webb Space Telescope has captured stunning images of distant galaxies and provided new
+                        insights into the early universe. Recent findings include evidence of water vapor on a distant
+                        exoplanet and detailed observations of star-forming regions.</p>
+                    <p>Scientists believe Webb will revolutionize our understanding of the cosmos, potentially
+                        discovering the first galaxies formed after the Big Bang.</p>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fas fa-rocket"></i> Artemis Moon Missions</h3>
+                    <p>NASA's Artemis program aims to return humans to the Moon and establish a sustainable presence by
+                        the end of the decade. The program's first uncrewed test flight successfully orbited the Moon in
+                        2022.</p>
+                    <p>Future missions will include the first woman and the first person of color to walk on the lunar
+                        surface, and the establishment of the Lunar Gateway space station.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="observatories">
+        <div class="container">
+            <h2>World's Top Observatories</h2>
+            <p class="Sec-description">Explore the cutting-edge facilities where humanity gazes into the cosmos.</p>
+
+            <div class="map-placeholder">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828337.9673900153!2d-160.1457193710194!3d20.440070991259915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bffdb064f79e005%3A0x4b7782d274cc8628!2sHawaii%2C%20USA!5e0!3m2!1sen!2sng!4v1750892940307!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14594.953966350897!2d-69.14314883325301!3d-23.86341815749296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96af46527fef1c47%3A0x34dbbb7aa8223dc!2sAtacama%20Desert!5e0!3m2!1sen!2sng!4v1750893659095!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14507.58953841552!2d-70.4141886329484!3d-24.62722139931418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96a54c9a474fd681%3A0x1686e5438aa048aa!2sCerro%20Paranal!5e0!3m2!1sen!2sng!4v1750893849802!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px;">
+                <div style="background: var(--secondary); padding: 25px; border-radius: 10px;">
+                    <h3><i class="fas fa-mountain"></i> Mauna Kea Observatories</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Hawaii, USA</p>
+                    <p>Home to the twin Keck telescopes and the upcoming Thirty Meter Telescope. At 4,205 meters
+                        elevation, it offers exceptional viewing conditions.</p>
+                </div>
+
+                <div style="background: var(--secondary); padding: 25px; border-radius: 10px;">
+                    <h3><i class="fas fa-desert"></i> Atacama Large Millimeter Array</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Atacama Desert, Chile</p>
+                    <p>An interferometer of 66 radio telescopes that studies cosmic light at millimeter wavelengths.
+                        Located at 5,000 meters altitude in one of Earth's driest regions.</p>
+                </div>
+
+                <div style="background: var(--secondary); padding: 25px; border-radius: 10px;">
+                    <h3><i class="fas fa-satellite"></i> Very Large Telescope</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Paranal, Chile</p>
+                    <p>Operated by ESO, the VLT consists of four 8.2m telescopes that can work together to achieve high
+                        angular resolution. Instruments include adaptive optics to correct atmospheric distortion.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="videos" class="content-section">
+        <h2 class="section-title">Educational Videos</h2>
+        <div class="video-grid">
+
+            <a href="https://youtu.be/e8YzKyot4Pc?si=OMkRNXKJNJoZ0Uj2" target="_blank">
+                <div class="video-card">
+                    <div class="video-thumb" style="background-image: url('Images/img-432.jpeg');">
+                    </div>
+                    <div class="video-info">
+                        <h3>Journey Through the Solar System</h3>
+                        <p>Explore all eight planets and their unique features in this spectacular tour.</p>
+                        <div class="video-meta">
+                            <span>25:18</span>
+                            <span>1.2M views</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://youtu.be/X3bVSTdQfGc?si=qz3swAzjfTIbbTyb" target="_blank">
+                <div class="video-card">
+                    <div class="video-thumb" style="background-image: url('Images/img-344.jpeg');">
+                    </div>
+                    <div class="video-info">
+                        <h3>Black Holes Explained</h3>
+                        <p>Understanding the most mysterious objects in the universe.</p>
+                        <div class="video-meta">
+                            <span>18:42</span>
+                            <span>980K views</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://youtu.be/a9Am9Rok0SY?si=SoC4V0hxzQ7ZGpkh" target="_blank">
+                <div class="video-card">
+                    <div class="video-thumb" style="background-image: url('Images/img-254.jpeg');">
+                    </div>
+                    <div class="video-info">
+                        <h3>The Life Cycle of Stars</h3>
+                        <p>From stellar nurseries to supernovae - how stars are born, live, and die.</p>
+                        <div class="video-meta">
+                            <span>22:35</span>
+                            <span>1.5M views</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://youtu.be/wTq1QUL9OsQ?si=XHdKbvCBsCVMJoFe" target="_blank">
+                <div class="video-card">
+                    <div class="video-thumb" style="background-image: url('Images/img-678.jpeg');">
+                    </div>
+                    <div class="video-info">
+                        <h3>Search for Exoplanets</h3>
+                        <p>How astronomers discover planets orbiting distant stars.</p>
+                        <div class="video-meta">
+                            <span>16:54</span>
+                            <span>850K views</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="books" class="content-section">
+        <h2>Related Books</h2>
+        <div class="books-grid">
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('Images/History\ of\ Time.jpeg');">
+                </div>
+                <div class="book-info">
+                    <h3>A Brief History of Time</h3>
+                    <div class="book-author">Stephen Hawking</div>
+                    <div class="book-actions">
+                        <a href="#" class="btn btn-buy">Buy</a>
+                        <a href="#" class="btn btn-borrow">Borrow</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('Images/cosmo.jpeg');">
+                </div>
+                <div class="book-info">
+                    <h3>Cosmos</h3>
+                    <div class="book-author">Carl Sagan</div>
+                    <div class="book-actions">
+                        <a href="#" class="btn btn-buy">Buy</a>
+                        <a href="#" class="btn btn-borrow">Borrow</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('Images/Planet.jpeg');">
+                </div>
+                <div class="book-info">
+                    <h3>The Planets</h3>
+                    <div class="book-author">Dava Sobel</div>
+                    <div class="book-actions">
+                        <a href="#" class="btn btn-buy">Buy</a>
+                        <a href="#" class="btn btn-borrow">Borrow</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover" style="background-image: url('Images/costellations.jpg');">
+                </div>
+                <div class="book-info">
+                    <h3>Astrophysics for People in a Hurry</h3>
+                    <div class="book-author">Neil deGrasse Tyson</div>
+                    <div class="book-actions">
+                        <a href="#" class="btn btn-buy">Buy</a>
+                        <a href="#" class="btn btn-borrow">Borrow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="about-us">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Cosmic Discoveries is dedicated to bringing the wonders of the universe to everyone. Our team of
+                    astronomers,
+                    educators, and developers work together to create engaging content that makes astronomy accessible
+                    and
+                    exciting.</p>
+            </div>
+            <div class="about-img">
+                <img src="Images/jason-goodman-vbxyFxlgpjM-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h3>Dr. Angel Adefokun</h3>
+                <p>Lead Astronomer</p>
+            </div>
+
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>Ezinwa Amanda</h3>
+                <p>Science Educator</p>
+            </div>
+
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Olafisoye Olive</h3>
+                <p>Web Developer</p>
+            </div>
+
+            <div class="team-member">
+                <div class="member-avatar">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>Jesuyanmife Olive</h3>
+                <p>Designer</p>
+            </div>
+        </div>
+
+        <h2 id="Contact" style="margin-top: 4rem;">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="Home-btn">Send Message</button>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <p>Capital building, 332, Ikorodu Rd,<br>Maryland, Lagos</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>oliverbalanzy@cosmicdiscoveries.com<br>lamexjay1@cosmicdiscoveries.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p>+234 802-845 -7345<br>+234 911-013-0856</p>
+                    </div>
+                </div>
+
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.6618585840874!2d3.364551575908888!3d6.564295393428963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d88f90709bb%3A0xb8491c7d49e0ac61!2sAptech%20Computer%20Education%20Maryland%20Centre!5e0!3m2!1sen!2sng!4v1750891919704!5m2!1sen!2sng"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Cosmic Discoveries</h3>
+                <p>Exploring the universe one discovery at a time. Bringing astronomy to everyone.</p>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/groups/NASA.SCIENCE/?_rdc=1&_rdr#"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/NASA"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/nasa/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/NASA"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#Home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#planets"><i class="fas fa-globe-americas"></i> Planets</a></li>
+                    <li><a href="#constellations"><i class="fas fa-star"></i> Constellations</a></li>
+                    <li><a href="#news"><i class="fas fa-newspaper"></i> Latest News</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#videos"><i class="fas fa-video"></i> Educational Videos</a></li>
+                    <li><a href="#books"><i class="fas fa-book"></i> Related Books</a></li>
+                    <li><a href="#observatories"><i class="fas fa-satellite"></i> Observatories</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest cosmic discoveries and updates.</p>
+                <div class="form-group" style="margin-top: 1rem;">
+                    <input type="email" placeholder="Your Email" style="width: 100%;">
+                    <button class="Home-btn" style="width: 100%; margin-top: 0.5rem;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Cosmic Discoveries. All rights reserved. | Designed with <i class="fas fa-heart"
+                    style="color: #ff5252;"></i> for astronomy enthusiasts</p>
+        </div>
+
+        <div class="ticker-container">
+            <div class="ticker">
+                <div class="ticker-item">
+                    <i class="fas fa-calendar"></i>
+                    <span id="current-date">Loading date...</span>
+                </div>
+                <div class="ticker-item">
+                    <i class="fas fa-clock"></i>
+                    <span id="current-time">Loading time...</span>
+                </div>
+                <div class="ticker-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <span id="location">Detecting your location...</span>
+                </div>
+                <div class="ticker-item">
+                    <i class="fas fa-temperature-high"></i>
+                    <span>Current Space Weather: Calm</span>
+                </div>
+                <div class="ticker-item">
+                    <i class="fas fa-satellite"></i>
+                    <span>James Webb Telescope: Operational</span>
+                </div>
+                <div class="ticker-item">
+                    <i class="fas fa-moon"></i>
+                    <span>Moon Phase: Waxing Gibbous</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
